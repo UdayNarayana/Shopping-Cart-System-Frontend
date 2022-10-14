@@ -1,0 +1,80 @@
+.register-header {
+    text-align: center;
+}
+
+.form-wrapper {
+    margin: auto;
+    margin-top: 3.5em;
+    margin-bottom: 3em;
+    padding: 0.7em;
+    width: 50%;
+    background-color: rgb(182, 186, 211);
+    height: fit-content;
+    border-radius: 0.5em;
+}
+
+.register-form .field-wrapper {
+    margin-bottom: 1.5em;
+}
+
+.register-form .input {
+    width: 18em;
+    height: 1.6em;
+
+}
+
+.register-form .gender-input,
+.register-form .role-input {
+    width: 19.5em;
+    height: 2.5em;
+}
+
+.register-form .about-input {
+    width: 20em;
+    height: 10em;
+}
+
+.register-form .input,
+.register-form .about-input,
+.register-form .gender-input,
+.register-form .role-input {
+    border-radius: 0.4em;
+    padding: 0.5em;
+    outline: none;
+    border: 0.1em solid rgb(88, 106, 222);
+}
+
+.register-form input:focus,
+.register-form textarea:focus,
+.register-form select:focus {
+    box-shadow: 0 0 5px rgb(88, 106, 222);
+    border: 0.1em solid rgb(88, 106, 222);
+}
+
+::placeholder {
+    color: #111;
+}
+
+::-webkit-input-placeholder {
+    /* Edge */
+    color: #111;
+}
+
+.register-form .submit-btn {
+    width: 10em;
+    height: 2.8em;
+    border-radius: 0.4em;
+    background-color: rgb(88, 106, 222);
+    color: #fff;
+    border: none;
+}
+
+.register-form .submit-btn:hover {
+    cursor: pointer;
+    background-color: rgb(49, 71, 215);
+    color: #fff;
+}
+
+.registration-confirmation {
+    color: rgb(88, 106, 222);
+}

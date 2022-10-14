@@ -1,0 +1,37 @@
+.navbar {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(197, 145, 87, 0.5);
+}
+
+.navbar .nav-items {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-items .nav-item {
+    list-style: none;
+}
+
+.nav-items .nav-item:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.navbar .lgn-sgp-btn {
+    width: 8em;
+    height: 3em;
+    border-radius: 0.5em;
+    background-color: rgb(36, 74, 145);
+    color: #fff;
+    border: none;
+}
+
+.navbar .lgn-sgp-btn:hover {
+    cursor: pointer;
+    background-color: rgb(64, 103, 176);
+}
